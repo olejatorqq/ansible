@@ -1,8 +1,7 @@
 ---
-- name: Test Connection to my servers
+- name: Test Connection to my server
   hosts: all
 
   tasks:
   - name: Ping my servers
     ping:
-
